@@ -1,9 +1,14 @@
 import style from '../styles/home.module.scss'
+import Head from 'next/head'
 export default function Home() {
   return (
-    <div className={style.container}>
-      <h1 >Base project</h1>
-    </div>
-    
+    <>
+      <Head>
+        <title>Ig news | Início</title>
+      </Head>
+      <div className={style.container}>
+        <h1 >Base project</h1>
+      </div>
+    </>
   )
 }
