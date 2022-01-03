@@ -14,7 +14,7 @@ export function SigninButton() {
   ) : (
     <button className={style.signinButton}>
       <FaGithub color='#eba417' />
-      Realixar login
+      Realizar login
     </button>
   )
 }
